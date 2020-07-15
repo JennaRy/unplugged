@@ -204,6 +204,17 @@ footer .social-icons {
   justify-content: space-around;
   align-items: center;
 }
+footer .social-icons i {
+  color: #e2e3ed;
+  background-color: #527158;
+  font-size: 1.3em;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px;
+}
 footer .social-icons p {
   display: flex;
   justify-content: center;
@@ -217,8 +228,8 @@ footer .copyright {
 
 /****************** Hero Area ***********************/
 .hero-area {
-  background: url(../img/hero.png) center no-repeat #333;
-  background-position: cover;
+  background: url('../img/hero.png') center no-repeat #333;
+  background-size: cover;
   min-height: 500px;
   display: flex;
   justify-content: center;
@@ -245,7 +256,7 @@ aside .form {
 
 /************* Features - HOMEPAGE ******************/
 .features {
-  background: url('../img/unplugged-retreat-features.jpg');
+  background: url('../img/features.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -264,6 +275,10 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 .features p {
   text-align: center;
@@ -496,6 +511,9 @@ input[type=button] {
   }
   header nav ul {
     justify-content: space-between;
+  }
+  header nav ul li {
+    margin: 0 20px;
   }
   .header-divider {
     display: none;
